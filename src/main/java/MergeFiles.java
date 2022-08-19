@@ -106,7 +106,7 @@ public class MergeFiles extends Arguments {
             } catch (ArrayIndexOutOfBoundsException exc) {
                 throw new RuntimeException("\nArrayIndexOutOfBoundsException\n");
             } catch (IOException exc) {
-                throw new RuntimeException("\nInput-Output Exception\n");
+                throw new RuntimeException("\nInput-Output Exception \n");
             }
         }
     }
