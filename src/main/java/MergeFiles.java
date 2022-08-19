@@ -102,9 +102,9 @@ public class MergeFiles extends Arguments {
                     }
                 }
             } catch (NullPointerException exc) {
-                throw new RuntimeException("\nTry close object null:\n" + exc.toString() + "\n");
+                throw new RuntimeException("\nTry close object null:\n");
             } catch (ArrayIndexOutOfBoundsException exc) {
-                throw new RuntimeException("\nArrayIndexOutOfBoundsException\n" + exc.toString() + "\n");
+                throw new RuntimeException("\nArrayIndexOutOfBoundsException\n");
             } catch (IOException exc) {
                 throw new RuntimeException("\nInput-Output Exception\n");
             }
