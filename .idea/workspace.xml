@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b783b9d4-f254-4687-a848-54eb7db885fe" name="Changes" comment="modified and test!!!">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+    <list default="true" id="b783b9d4-f254-4687-a848-54eb7db885fe" name="Changes" comment="Fixed and test">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Arguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/Danil10171/Arguments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/Danil10171/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MergeFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/Danil10171/MergeFiles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +44,14 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.-a-i">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\belae\IdeaProjects\cft-shift-test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.-a-s">
     <configuration name="-a-i" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.cft.Danil10171.Main" />
       <module name="cft-shift-test" />
       <option name="PROGRAM_PARAMETERS" value="-a -i src/main/resources/-a-i/out.txt src/main/resources/-a-i/in1.txt src/main/resources/-a-i/in2.txt src/main/resources/-a-i/in3.txt" />
       <method v="2">
@@ -58,15 +59,15 @@
       </method>
     </configuration>
     <configuration name="-a-s" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.cft.Danil10171.Main" />
       <module name="cft-shift-test" />
-      <option name="PROGRAM_PARAMETERS" value="-s src/main/resources/-s/out.txt src/main/resources/-s/in1.txt src/main/resources/-s/in2.txt src/main/resources/-s/in3.txt" />
+      <option name="PROGRAM_PARAMETERS" value="-a -s src/main/resources/-a-s/out.txt src/main/resources/-a-s/in1.txt src/main/resources/-a-s/in2.txt src/main/resources/-a-s/in3.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="-d-i" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.cft.Danil10171.Main" />
       <module name="cft-shift-test" />
       <option name="PROGRAM_PARAMETERS" value="-i -d src/main/resources/-d-i/out.txt src/main/resources/-d-i/in1.txt src/main/resources/-d-i/in2.txt src/main/resources/-d-i/in3.txt" />
       <method v="2">
@@ -74,7 +75,7 @@
       </method>
     </configuration>
     <configuration name="-d-s" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.cft.Danil10171.Main" />
       <module name="cft-shift-test" />
       <option name="PROGRAM_PARAMETERS" value="-s -d src/main/resources/-d-s/out.txt src/main/resources/-d-s/in1.txt src/main/resources/-d-s/in2.txt src/main/resources/-d-s/in3.txt" />
       <method v="2">
@@ -82,15 +83,23 @@
       </method>
     </configuration>
     <configuration name="-i" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.cft.Danil10171.Main" />
       <module name="cft-shift-test" />
       <option name="PROGRAM_PARAMETERS" value="-i src/main/resources/-i/out.txt src/main/resources/-i/in1.txt src/main/resources/-i/in2.txt src/main/resources/-i/in3.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="-s" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.cft.Danil10171.Main" />
+      <module name="cft-shift-test" />
+      <option name="PROGRAM_PARAMETERS" value="-s src/main/resources/-s/out.txt src/main/resources/-s/in1.txt src/main/resources/-s/in2.txt src/main/resources/-s/in3.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Parser (1)" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.cft.Danil10171.Main" />
       <module name="cft-shift-test" />
       <option name="PROGRAM_PARAMETERS" value="out.txt in.txt" />
       <method v="2">
@@ -108,6 +117,7 @@
       <item itemvalue="Application.-a-i" />
       <item itemvalue="Application.-i" />
       <item itemvalue="Application.-a-s" />
+      <item itemvalue="Application.-s" />
       <item itemvalue="Application.-d-s" />
       <item itemvalue="Application.-d-i" />
       <item itemvalue="Application.Parser (1)" />
@@ -151,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660918212113</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed and test">
+      <created>1660925063608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660925063608</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +197,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Push project" />
     <MESSAGE value="modified and test!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified and test!!!" />
+    <MESSAGE value="Fixed and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed and test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
