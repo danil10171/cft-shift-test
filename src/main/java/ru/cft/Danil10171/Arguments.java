@@ -33,7 +33,6 @@ public class Arguments {
             SortType sortType = SortType.ASC;
             DataType dataType = null;
 
-            // чтение аргументов
             Object[] arguments = Arrays.stream(args)
                     .filter(arg -> arg.startsWith("-")).toArray();
 
