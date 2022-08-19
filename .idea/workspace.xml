@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b783b9d4-f254-4687-a848-54eb7db885fe" name="Changes" comment="Push project" />
+    <list default="true" id="b783b9d4-f254-4687-a848-54eb7db885fe" name="Changes" comment="Push project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arguments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MergeFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergeFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/-a-s/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/-a-s/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/-d-i/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/-d-i/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/-d-s/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/-d-s/out.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,19 +46,51 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Parser">
-    <configuration name="Parser (1)" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.-a-i">
+    <configuration name="-a-i" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="cft-shift-test" />
-      <option name="PROGRAM_PARAMETERS" value="out.txt in.txt" />
+      <option name="PROGRAM_PARAMETERS" value="-a -i src/main/resources/-a-i/out.txt src/main/resources/-a-i/in1.txt src/main/resources/-a-i/in2.txt src/main/resources/-a-i/in3.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Parser" type="Application" factoryName="Application">
+    <configuration name="-a-s" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="cft-shift-test" />
-      <option name="PROGRAM_PARAMETERS" value="-i src/main/resources/-a-i/out.txt src/main/resources/-a-i/in1.txt src/main/resources/-a-i/in2.txt src/main/resources/-a-i/in3.txt" />
+      <option name="PROGRAM_PARAMETERS" value="-s src/main/resources/-s/out.txt src/main/resources/-s/in1.txt src/main/resources/-s/in2.txt src/main/resources/-s/in3.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="-d-i" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="cft-shift-test" />
+      <option name="PROGRAM_PARAMETERS" value="-i -d src/main/resources/-d-i/out.txt src/main/resources/-d-i/in1.txt src/main/resources/-d-i/in2.txt src/main/resources/-d-i/in3.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="-d-s" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="cft-shift-test" />
+      <option name="PROGRAM_PARAMETERS" value="-s -d src/main/resources/-d-s/out.txt src/main/resources/-d-s/in1.txt src/main/resources/-d-s/in2.txt src/main/resources/-d-s/in3.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="-i" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="cft-shift-test" />
+      <option name="PROGRAM_PARAMETERS" value="-i src/main/resources/-i/out.txt src/main/resources/-i/in1.txt src/main/resources/-i/in2.txt src/main/resources/-i/in3.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Parser (1)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="cft-shift-test" />
+      <option name="PROGRAM_PARAMETERS" value="out.txt in.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -64,7 +103,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Parser" />
+      <item itemvalue="Application.-a-i" />
+      <item itemvalue="Application.-i" />
+      <item itemvalue="Application.-a-s" />
+      <item itemvalue="Application.-d-s" />
+      <item itemvalue="Application.-d-i" />
       <item itemvalue="Application.Parser (1)" />
       <item itemvalue="Application.Unnamed" />
     </list>
@@ -85,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660914821653</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Push project">
+      <created>1660914857233</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660914857233</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Push project">
+      <created>1660915186402</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660915186402</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

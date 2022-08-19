@@ -3,10 +3,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Arguments {
-    public SortType sortType;
-    public DataType dataType;
-    public String outFile;
-    public List<String> inFiles;
+    SortType sortType;
+    DataType dataType;
+    String outFile;
+    List<String> inFiles;
 
     public Arguments() {
         this.sortType = SortType.ASC;
@@ -25,10 +25,6 @@ public class Arguments {
 
     protected enum SortType { ASC, DES }
     protected enum DataType { STR, INT }
-
-    //public static Arguments getDataType(){
-    //    return Arguments.DataType;
-    //}
     public static Arguments ArgumentsParser(String[] args) {
 
         if (args.length != 0) {

@@ -114,29 +114,14 @@ public class MergeFiles extends Arguments {
     //Метод для сравнения двух значений с использованием определённых ключей
     private static boolean Compare(SortType sortType, DataType dataType, String s1, String s2) throws NumberFormatException {
 
-        switch (dataType) {
-            case INT: //Для int - преобразовываем строку в Integer
-                switch (sortType) {
-                    case ASC:
-                        return Integer.parseInt(s1) > Integer.parseInt(s2);
-                    case DES:
-                        return Integer.parseInt(s1) < Integer.parseInt(s2);
-                    default:
-                        return false;
-                }
+        return switch (dataType) {
+            case INT -> sortType == SortType.ASC
+                    ? Integer.parseInt(s1) > Integer.parseInt(s2)
+                    : Integer.parseInt(s1) < Integer.parseInt(s2);
 
-            case STR: //Для String - сравниваем через compareTo()
-                switch (sortType) {
-                    case ASC:
-                        return s1.compareTo(s2) > 0;
-                    case DES:
-                        return s1.compareTo(s2) < 0;
-                    default:
-                        return false;
-                }
-
-            default:
-                return false;
-        }
+            case STR -> sortType == SortType.ASC
+                    ? s1.compareTo(s2) > 0
+                    : s1.compareTo(s2) < 0;
+        };
     }
 }
