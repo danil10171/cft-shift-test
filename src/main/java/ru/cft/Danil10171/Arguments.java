@@ -1,3 +1,5 @@
+package ru.cft.Danil10171;
+
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
@@ -67,7 +69,7 @@ public class Arguments {
                 throw new RuntimeException("\nNo entered input files!\nPlease check command line for the name of the input files and that there is a file extension \"*.txt\"\n");
             }
             return new Arguments(sortType, dataType, outFile, inFiles);
-        } else { throw new RuntimeException("Пустая командная строка"); }
+        } else { throw new RuntimeException("\nNo input arguments\n"); }
     }
 
 

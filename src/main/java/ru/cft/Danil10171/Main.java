@@ -1,3 +1,5 @@
+package ru.cft.Danil10171;
+
 public class Main {
     public static void main(String[] args) {
         Arguments mergeFiles = Arguments.ArgumentsParser(args);

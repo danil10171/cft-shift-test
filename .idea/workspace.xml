@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b783b9d4-f254-4687-a848-54eb7db885fe" name="Changes" comment="Push project">
+    <list default="true" id="b783b9d4-f254-4687-a848-54eb7db885fe" name="Changes" comment="modified and test!!!">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Arguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arguments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MergeFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergeFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/-a-s/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/-a-s/out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/-d-i/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/-d-i/out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/-d-s/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/-d-s/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/Danil10171/Arguments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/Danil10171/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MergeFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/cft/Danil10171/MergeFiles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/belae/IdeaProjects/cft-shift-test&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.-a-i">
     <configuration name="-a-i" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -142,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660915186402</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modified and test!!!">
+      <created>1660918212113</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660918212113</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +179,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Push project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push project" />
+    <MESSAGE value="modified and test!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified and test!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
